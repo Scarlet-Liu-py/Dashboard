@@ -1,0 +1,47 @@
+        body{
+            background-image: url("图片/网站背景.png");
+            background-repeat: no-repeat;/*平铺不复制*/
+            /*background-attachment: scroll;!*背景不随浏览器滚动*!*/
+            /*background-position: 0% 0%;*/
+            background-size:cover;
+            /*position: fixed;!*图片总是等比缩放的填页面*!*/
+            /*background-color: rgba(10,18,50,0.85);*/
+            color: white;
+            /*padding:0;*/
+            /*margin-left:10%;*/
+            /*margin-right: 10%;*/
+            width:100%;
+            /*border: 2px dotted red;*/
+            /*padding: 10px 10px 10px 10px;*/
+            font-family: Verdana, Helvetica, Arial, sans-serif;/*字体*/
+            font-size: small;/*字体大小*/
+            font-width: bold;/*指定特定粗细*/
+            line-height: 1.6em;/*行高*/
+        }
+        .图表区域{
+            border-color: "black";/*内边框的颜色*/
+            border-width: 1px;/*内边框的宽度*/
+            border-style: solid;/*内边框为实线*/
+            background-color: rgba(22,59,88,0.88);
+            padding: 25px; /*四周设置相同的内边距*/
+            padding-left: 350px;/*左侧内边距*/
+            margin: 30px;/*在内容四周加外边距*/
+            background-image: url(图片/赵林.png);
+            background-repeat: no-repeat;
+            background-position: top left;
+        }
+
+        hi,h2{
+            font-family: sans-serif;/*字体*/
+            color: #007e7e;
+        }
+        blockquote{
+            font-style:italic;
+        }
+        h1{
+            border-bottom: 1px solid white;/*白色下划线,延伸直到页面边缘*/
+            font-size: 150%;
+        }
+        h2{
+            font-size: 1.2em;
+        }
